@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ivana & Henri Wedding</title>
+    <meta name="description" content="You are invited to attend the wedding" />
+    <meta property="og:title" content="Wedding Invitation from Ivana & Henri" />
+    <meta property="og:url" content="https://ivana-henri-wedding.website/#undangan"/>
+    <meta property="og:image" itemprop="image" content="https://i.ibb.co/cgBj4q9/om8-2-1.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="250" />
+    <!-- flaticon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    
+    <link rel="preload" as="style" href="style.css">
+    <link rel="stylesheet preload" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="preload" href="../Real/fonts/GV/GreatVibes-Regular.ttf" as="font" type="font/GreatVibes-Regular" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!-- simply countdown -->
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Animation after html js -->
+    <script defer src="app.js"></script>
+
+  </head>
+    <link itemprop="thumbnailUrl" href="url_image"> 
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
+      <link itemprop="url" href="url_image"> 
+    </span>
+  <body>
+    <div  id ="popup-overlay" class = "popup-overlay ">
+      <div class="popup-container">
+          <div class="middle">
+            
+            <p class="popup-heading"><span></span></p>
+            <h2><b><span></span></b></h2>
+            <p class="description"> We're inviting you to join our joyful <br> moment together</p>
+            <a href="#undangan" id="btn1" class="btn btn-lg mt-4" onClick="enableScroll()">Open Invitation</a>
+          </div>
+      </div>
+    </div>
+
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center">
+      <div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <img src="img/hero-bunga-bawah__2_-removebg-preview.png" alt="" class="bunga-hero-atas">
+              <h1>Ivana & Henri</h1>
+              <img src="img/hero-bunga-bawah__1_-removebg-preview.png" alt="" class="bunga-hero-bawah">
+            </div>
+          </div>
+        </div>
+        
+        <h2 class="hidden1">Marriage in</h2>
+        <div class="simply-countdown hidden1"></div>
+      </div>
+    </section>
+    <script>
+      simplyCountdown('.simply-countdown',{
+        year: 2023, // required
+            month: 10, // required
+            day: 1, // required
+            hours: 19, // Default is 0 [0-23] integer
+            minutes: 0, // Default is 0 [0-59] integer
+            seconds: 0, // Default is 0 [0-59] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'Day', plural: 'Days' },
+                hours: { singular: 'Hour', plural: 'Hours' },
+                minutes: { singular: 'Minute', plural: 'Minutes' },
+                seconds: { singular: 'Second', plural: 'Seconds' }
+            },
+      });
+    </script>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ivana & Henri</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ivana & Henri</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto" onclick="">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#home">Couple</a>
+              <a class="nav-link" href="#our-moment">Moment</a>
+              <a class="nav-link" href="#sumbangan">Sign of Love</a>
+              <a class="nav-link" href="#maps">Location</a>
+              <a class="nav-link" href="#rsvp">Wish & Hope</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <p>“So that they are no longer two, but one flesh. Then let not that which has been joined by God be parted by man”
+            <br>-(Matthew 19:6)</p>
+          <div class="col-md-8 col-10 text-center">
+              <h2 class="hidden">The Couple</h2>
+              <h3>Cordially request the honour of your presence at <br>the marriage of our beloved son and daughter </h3>
+          </div>
+        </div>
+        <img src="img/om8 (2).jpg" style="width: 300px; height: 300px; display: none;">
+
+        <div class="row couple row-cols-md-2 row-col-sm-2 row-col-1">
+          <div class="row col-mt-3 gy-3">
+            <div class="column">
+              <img src="avif_img/ezgif.com-gif-maker (1).avif" alt="cewe" class="img-responsive rounded-circle hidden">
+              <center>
+                <h3>Ivana Darmawan, Amd</h3>
+                <p>Daughter of Mr Robertus Arif Darmawan, S.E <br>& Mrs Natalia Eko Ari Wigati</p>
+              </center>
+            </div>
+          </div>
+          <div class="row col-mt-3 gy-3">
+            <div class="column ">
+              <img src="avif_img/ezgif.com-gif-maker (2).avif" alt="cowo" class="img-responsive rounded-circle hidden">
+              <center>
+                <h3>Henri Wijaya, Amd <br>(Lie Fei Han)</h3>
+                <p>Son of Mr Lie Tje Djen & Mrs Eni</p>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-moment" class="our-moment">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h1 class="hidden">Our Moment</h1>
+          </div>
+        </div>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-col-1">
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="avif_img/azvpy-fhn93.avif">
+              <img src="avif_img/azvpy-fhn93.avif" alt="gambar1" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om2.jpg">
+              <img src="avif_img/ezgif.com-gif-maker (3).avif" alt="gambar2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/couple_1.jpg"></a>
+              <img src="img/couple_1.jpg" alt="gambar3" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om4.jpg">
+              <img src="avif_img/aev87-6xjbj.avif" alt="gambar4" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om5.jpg">
+              <img src="avif_img/om5.avif" alt="gambar5" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om6.jpg">
+              <img src="avif_img/om6.avif" alt="gambar6" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om7.jpg">
+              <img src="avif_img/om7.avif" alt="gambar7" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="row col-mt-3 gy-2 hidden">
+            <a href="img/om8 (2).jpg">
+              <img src="avif_img/om8-_2_.avif" alt="gambar8" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="lokasi" class="lokasi">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h1 class="hidden1">Place and Date</h1>
+            <p>Our joy will be complete with your presence and 
+              <br>blessings at our celebration of love
+            <h2 class="hidden1">ON SUNDAY OCTOBER 1st,2023</h2>
+            </p>
+          </div>
+        </div>
+        <div class="row row-cols-md-2 row-col-sm-2 row-col-1">
+          <div class="row col-mt-3 gy-2">
+            <div class="column">
+              <div class="column1 hidden1">
+                <div class="rectangle">
+                  <h3>Holy Matrimony</h3>
+                  <br><i class="fi fi-ss-rings-wedding"></i>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <p>St Aloysius Church  </p>
+                    <p> At 10.00 WIB</p>
+                    <p> Jl. Rinjani Raya No. 27A Mojosongo, Kec.Jebres
+                      <br>Surakarta City
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row col-mt-3 gy-2">
+            <div class="column">
+              <div class="column2 hidden1">
+                <div class="rectangle">
+                  <h3>Wedding Reception</h3>
+                  <br><i class="bi bi-house-heart-fill"></i>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <p>Gedung Graha Saba Buana</p>
+                  <p>At 19.00 WIB</p>
+                  <p>Jl. Letjen Suprapto No. 80-B Sumber, Banjarsari,<br> Surakarta City</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="maps" class="maps justify-content-center"> 
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2 class="hidden">Location</h2>
+            <h3></h3>
+          </div>
+        </div>
+        <div class="row row-cols-md-8 row-col-sm-6 row-col-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2776846922657!2d110.80375501147441!3d-7.544666474453066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a141e6bbb7871%3A0xe84febb8efd87dcd!2sGraha%20Saba%20Buana!5e0!3m2!1sen!2sid!4v1694397725374!5m2!1sen!2sid" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="hidden"></iframe>
+          <a href="https://goo.gl/maps/yWXLCqnQHhsipaNW9" class="btn btn-primary btn-lg hidden1">Click for direction</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sumbangan" class="sumbangan">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <img src="img/bunga-sumbangan-removebg-preview.png" alt="bunga-atas" class="bunga-atas hidden1">
+            <h2 class="hidden">Sign of Love</h2>
+            <p class="hidden1">Thank you for adding to the excitement of our <br> wedding with your presence and beautiful gifts</p>
+            <div class="rek hidden1">
+              <p><b>5221751940</b></p>
+              <input type="text" hidden value="5221751940" id="myInput1">
+              <button type="button" class="button buttonrekening" onclick="myFunction1()">Salin Rekening</button>
+              <p>BCA : Ivana Darmawan</p>
+              <p><b>5221593864</b></p>
+              <input type="text" hidden value="5221593864" id="myInput2">
+              <button type="button" class="button buttonrekening" onclick="myFunction2()">Salin Rekening</button>
+              <p>BCA : Henri Wijaya</p>
+            </div>
+            <br>
+            <img src="img/bunga-sumbangan2-removebg-preview.png" alt="bunga-atas" class="bunga-bawah">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2 class="hidden1">Reservation</h2>
+            <p class="hidden1">Mr./Ms./Mrs. <br> Please fill information below to confirm attendance</p>
+          </div>
+        </div>
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+        method="POST" action="https://script.google.com/macros/s/AKfycbyQxUJPf86obiVEnKw-1jXT4E8mZj2-WyodGKReSpIOssX9CQq-Pa2_aw4ZcKkLCg/exec"
+        id="my-form">
+          <div class="col-12 hidden1">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12 hidden1">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Number of People</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" 
+              length="1" value="1">
+            </div>
+          </div>
+          <div class="col-12 hidden1">
+            <div class="mb-3">
+              <label for="status" class="form-label">Confirmation</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary hidden">Kirim</button>
+          </div>
+        </form>
+        <p class="text-center hidden1" style="font-weight:400 ;"><b>Please confirm</b> your attendance <br> until  <b>October 1st, 2023</b></p>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6 hidden">
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              
+              var disqus_config = function () {
+              this.page.url = 'https://ivana-henri-wedding.website/#undangan';  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://ivanahenriwedding-com.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container hidden1">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2023 Panjul & Alvin. All Rights Reserved</small>
+            <small class="block"><br>Design By Veronica Diella<a href=""></a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/Shania Twain - Youre Still The One.mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-pause-circle"></i>
+      </div>
+    </div>
+
+    <script>
+      function myFunction1() {
+      // Get the text field
+      var copyText1 = document.querySelector("#myInput1");
+      // Select the text field
+      copyText1.select();
+      copyText1.setSelectionRange(0, 99999); // For mobile devices
+      // Copy the text inside the text field
+      navigator.clipboard.writeText(copyText1.value);
+      // Alert the copied text
+      alert("Copied rekening: " + copyText1.value);
+    }
+    </script>
+    
+    <script>
+      function myFunction2() {
+      var copyText2 = document.querySelector("#myInput2");
+      copyText2.select();
+      copyText2.setSelectionRange(0, 99999); 
+      navigator.clipboard.writeText(copyText2.value);
+      alert("Copied rekening: " + copyText2.value);
+      
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script>
+      const hamburger = document.querySelector('.navbar-toggler');
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      hamburger.addEventListener('click', function(){
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n')|| '';
+      const pronoun = urlParams.get('p') || 'Mr/Ms' || '';
+      const bahasa = urlParams.get('b') || '';
+      const namaContainer = document.querySelector('.popup-overlay .popup-container h2 span');
+      const pronounContainer = document.querySelector('.popup-overlay .popup-container p span');
+      const bahasaContainer = document.querySelector('.popup-overlay .popup-container h2');
+      namaContainer.innerText = `${pronoun} ${nama}`;
+      pronounContainer.innerText = `${bahasa}`;
+    
+
+      document.querySelector("#nama").value = nama;
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song');
+     
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function (){
+          window.scrollTo(scrollTop, scrollLeft)
+        }
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll(){
+        window.onscroll = function(){}
+        rootElement.style.scrollBehavior = 'smooth';
+        document.getElementById("popup-overlay").classList.add('off');
+        playAudio();
+      }
+
+      function playAudio(){
+        
+        song.volume = 0.5;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function(){ 
+        if(isPlaying){
+          song.pause();
+          audioIcon.classList.remove('bi-pause-circle');
+          audioIcon.classList.add('bi-disc');
+        } else {
+          song.play();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        }
+        isPlaying = !isPlaying;
+      }
+      disableScroll();
+    </script>
+
+    <script>
+        window.addEventListener("load", function() {
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+        .then(() => {
+          alert("Konfirmasi Kehadiran terkirim !");
+        })
+      });
+    });
+    </script>
+
+    
+  </body>
+</html>
